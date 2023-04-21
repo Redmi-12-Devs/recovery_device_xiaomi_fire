@@ -52,6 +52,12 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 31
+
+# API
+PRODUCT_SHIPPING_API_LEVEL := 30
+
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
