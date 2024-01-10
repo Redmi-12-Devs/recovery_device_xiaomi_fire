@@ -25,4 +25,4 @@ Features| Fingerprint (side-mounted), accelerometer, proximity, compass
 
 ## Device picture
 
-![Redmi 12](https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-12-.jpg "Redmi 12")
+![Redmi 12](https://akm-img-a-in.tosshub.com/aajtak/images/story/202307/redmi_12-sixteen_nine_0.jpg?size=948:533 "Redmi 12")
