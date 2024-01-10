@@ -158,6 +158,9 @@ BOARD_USES_MTK_HARDWARE := true
 # Try To Decrypt #1
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 
+# Handle /data/media
+RECOVERY_SDCARD_ON_DATA := true
+
 # Touchscreen
 TW_LOAD_VENDOR_MODULES := "focaltech_8725_2_fw.bin focaltech_8725_fw.bin focaltech_ft8720_hx.ini focaltech_ft8725_2_hx.ini focaltech_ft8725_hx.ini focaltech_ts_fw_.bin novatek_ts_fw.bin novatek_ts_mp.bin"
 
