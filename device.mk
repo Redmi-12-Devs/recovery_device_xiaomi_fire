@@ -15,6 +15,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-impl.recovery \
     android.hardware.boot@1.0-service
@@ -28,4 +29,9 @@ PRODUCT_PACKAGES += \
     cppreopts.sh \
     update_engine \
     update_verifier \
-    update_engine_sideload
+    update_engine_sideload \
+    
+# Fastbootd
+    android.hardware.fastboot@1.0-impl-mock \
+    fastbootd
+
