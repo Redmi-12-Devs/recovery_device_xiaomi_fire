@@ -110,6 +110,11 @@ VENDOR_SECURITY_PATCH := 2021-08-01
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
+# Try To Decryption
+BOARD_AVB_RECOVERY_ADD_HASH_FOOTER_ARGS += \
+    --prop com.android.build.boot.os_version:$(PLATFORM_VERSION) \
+    --prop com.android.build.boot.security_patch:$(PLATFORM_SECURITY_PATCH)
+
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
