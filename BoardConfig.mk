@@ -136,6 +136,9 @@ TW_INCLUDE_LIBRESETPROP := true
 # SELinux Full Support 
 TWHAVE_SELINUX := true
 
+# No screen timeout
+TW_NO_SCREEN_TIMEOUT := true
+
 # Touchscreen
 TW_LOAD_VENDOR_MODULES := "focaltech_8725_2_fw.bin focaltech_8725_fw.bin focaltech_ft8720_hx.ini focaltech_ft8725_2_hx.ini focaltech_ft8725_hx.ini focaltech_ts_fw_.bin novatek_ts_fw.bin novatek_ts_mp.bin"
 
