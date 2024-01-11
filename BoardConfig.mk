@@ -146,25 +146,14 @@ TW_INCLUDE_FB2PNG := true
 TWRP_INCLUDE_LOGCAT := true
 TWRP_EVENT_LOGGING := true
 
-# No Use Recovery Partition
-TW_HAS_NO_RECOVERY_PARTITION := true
-
 # Encryption Support
 TW_INCLUDE_CRYPTO := true
-
-# Mtk Board
-BOARD_USES_MTK_HARDWARE := true
 
 # Try To Decrypt #1
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 
 # Handle /data/media
 RECOVERY_SDCARD_ON_DATA := true
-
-# System as root
-BOARD_SUPPRESS_SECURE_ERASE := true
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
-BOARD_ROOT_EXTRA_FOLDERS += metadata
 
 # Read Battery Percentage
 TW_USE_LEGACY_BATTERY_SERVICES := true
