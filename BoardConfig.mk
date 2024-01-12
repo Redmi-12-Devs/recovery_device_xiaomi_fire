@@ -144,6 +144,9 @@ TW_INCLUDE_FBE_METADATA_DECRYPT := true
 # Handle /data/media
 RECOVERY_SDCARD_ON_DATA := true
 
+# MKE2FS
+TARGET_USES_MKE2FS := true
+
 # Read Battery Percentage
 TW_USE_LEGACY_BATTERY_SERVICES := true
 
