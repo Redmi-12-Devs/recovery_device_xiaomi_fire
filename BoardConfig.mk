@@ -129,6 +129,9 @@ TW_FRAMERATE := 90
 TW_INCLUDE_RESETPROP := true
 TW_INCLUDE_LIBRESETPROP := true
 
+# Statusbar TWRP
+TW_CUSTOM_BATTERY_POS := "790"
+
 # Touchscreen
 TW_LOAD_VENDOR_MODULES := "focaltech_8725_2_fw.bin focaltech_8725_fw.bin focaltech_ft8720_hx.ini focaltech_ft8725_2_hx.ini focaltech_ft8725_hx.ini focaltech_ts_fw_.bin novatek_ts_fw.bin novatek_ts_mp.bin"
 
