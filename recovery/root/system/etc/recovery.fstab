@@ -9,3 +9,9 @@ product                                    /product         ext4                
 /dev/block/by-name/misc         /misc            emmc                defaults       defaults
 
 /dev/block/by-name/boot         /boot            emmc                defaults       slotselect
+
+/dev/block/mmcblk0p1            /external_sd     auto                  default  
+/dev/block/mmcblk0              /external_sd     auto                  default  
+
+/dev/block/sda1            /usb_otg        auto                  default  
+/dev/block/sda            /usb_otg         auto                  default  
