@@ -139,6 +139,9 @@ TW_USB_STORAGE := true
 # /data/media
 RECOVERY_SDCARD_ON_DATA := true
 
+# Backup Path
+TW_FORCE_BACKUP_DEVICE := /sdcard
+
 # Statusbar TWRP
 TW_CUSTOM_BATTERY_POS := "790"
 
