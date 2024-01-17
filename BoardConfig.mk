@@ -114,11 +114,6 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 99.87.36
 
-
-# Other Configuration
-BOARD_CUSTOM_RECOVERY_PIXEL_RECOVERY := true
-BOARD_CUSTOM_RECOVERY_TWRP_APP_MANAGER := true
-
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
@@ -136,11 +131,8 @@ TW_INCLUDE_LIBRESETPROP := true
 # USB
 TW_USB_STORAGE := true
 
-# Data/media
+# /data/media
 RECOVERY_SDCARD_ON_DATA := true
-
-# Force Backup
-TW_FORCE_BACKUP_DEVICE := true
 
 # Statusbar TWRP
 TW_CUSTOM_BATTERY_POS := "790"
@@ -153,9 +145,6 @@ TW_PREPARE_DATA_MEDIA_EARLY := true
 
 # MKE2FS
 TARGET_USES_MKE2FS := true
-
-# Custom Init.rc
-TARGET_RECOVERY_INITRC := $(DEVICE_PATH)/recovery/root/init.recovery.mt6768.rc
 
 # Touchscreen
 TW_LOAD_VENDOR_MODULES := "focaltech_8725_2_fw.bin focaltech_8725_fw.bin focaltech_ft8720_hx.ini focaltech_ft8725_2_hx.ini focaltech_ft8725_hx.ini focaltech_ts_fw_.bin novatek_ts_fw.bin novatek_ts_mp.bin"

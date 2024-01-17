@@ -5,10 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_fire.mk
-
-COMMON_LUNCH_CHOICES := \
-    twrp_fire-user \
-    twrp_fire-userdebug \
-    twrp_fire-eng
+add_lunch_combo omni_fire-user
+add_lunch_combo omni_fire-userdebug
+add_lunch_combo omni_fire-eng
