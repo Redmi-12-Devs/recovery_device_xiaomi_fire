@@ -21,10 +21,11 @@ service teei_daemon /system/bin/teei_daemon \
     -t 98fb95bcb4bf42d26473eae48690d7ea \
     -t 7b66512021214487ba710a51d7ea78fe \
     -t 09010000000000000000000000000000
-    user root
-    group root
+    class core
+    user system
+    group system
     disabled
-    seclabel u:r:recovery:s0
+   # oneshot
 
 on boot
     chown system system /sys/bus/platform/devices/utos/dcih_notify_test
@@ -35,7 +36,7 @@ on boot
 
 #for All mode
 on load_persist_props_action
-    write /proc/bootprof "start teei cfg (on vold.decrypt=trigger_restart_framework)"
+    write /proc/bootprof "start teei cfg (on load_persist_props_action)"
     mkdir /data/vendor/thh
     mkdir /data/vendor/thh/system
     mkdir /data/vendor/thh/tee_00
