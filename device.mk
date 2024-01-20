@@ -6,7 +6,11 @@
 #
 
 LOCAL_PATH := device/xiaomi/fire
-# A/B
+# Enable V A/B
+ENABLE_VIRTUAL_AB := true
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
+# A/B 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
