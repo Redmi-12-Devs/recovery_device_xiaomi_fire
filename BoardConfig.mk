@@ -160,7 +160,7 @@ TW_HAS_MTP := true
 # Screen Brightness
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
-TW_DEFAULT_BRIGHTNESS := TRUE
+TW_DEFAULT_BRIGHTNESS := true
 
 # USB
 TW_USB_STORAGE := true
