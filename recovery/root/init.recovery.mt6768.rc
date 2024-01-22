@@ -39,3 +39,6 @@ on post-fs
 
     on property:twrp.all.users.decrypted=true
     stop keymaster-4-1
+
+on boot
+    health-hal-2-1
