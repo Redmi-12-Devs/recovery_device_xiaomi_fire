@@ -43,14 +43,17 @@ on post-fs
     start keymaster-4-1
 
     on property:ro.crypto.state=unsupported
+    stop teei_daemon
     stop keymaster-4-1
     stop gatekeeper-1-0
 
     on property:ro.crypto.state=unencrypted
+    stop teei_daemon
     stop keymaster-4-1
     stop gatekeeper-1-0
 
     on property:twrp.all.users.decrypted=true
+    stop teei_daemon
     stop keymaster-4-1
     stop gatekeeper-1-0
 
