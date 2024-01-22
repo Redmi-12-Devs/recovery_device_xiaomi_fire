@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     bootctrl.mt6768 \
     bootctrl.mt6768.recovery
 
+# MTK Plpath utils
+PRODUCT_PACKAGES += \
+    mtk_plpath_utils.recovery
+
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
