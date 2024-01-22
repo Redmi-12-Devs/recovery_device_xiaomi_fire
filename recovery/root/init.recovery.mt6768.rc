@@ -29,6 +29,8 @@ on post-fs
     disabled
     oneshot
     seclabel u:r:recovery:s0
+
+    on property:vendor.sys.listener.registered=true
     start keymaster-4-1
 
     on property:ro.crypto.state=unsupported
