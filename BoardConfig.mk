@@ -64,7 +64,7 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
-TARGET_PREBUILT_DTBO := $(DEVICE_PATH)/prebuilt/dtb.img
+TARGET_PREBUILT_DTBO := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
