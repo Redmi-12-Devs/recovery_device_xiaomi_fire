@@ -174,3 +174,7 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # Apexs
 TW_EXCLUDE_APEX := true
+
+# LOGCAT
+TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := true
