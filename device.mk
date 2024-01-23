@@ -61,8 +61,7 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-service \
-    libhealthd.$(PRODUCT_PLATFORM)
+    android.hardware.health@2.1-service 
 
 # libion & libxml2
 TARGET_RECOVERY_DEVICE_MODULES += \
