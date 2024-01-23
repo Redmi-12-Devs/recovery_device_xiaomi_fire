@@ -171,3 +171,6 @@ TW_HAS_MTP := true
 
 # USB
 TW_USB_STORAGE := true
+
+# Props
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
