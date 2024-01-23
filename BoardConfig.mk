@@ -105,6 +105,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Fstab
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
+# Spesificy Initrc Recovery
+TARGET_RECOVERY_INITRC := $(DEVICE_PATH)/recovery/root/init.recovery.mt6768.rc
+
 # Security patch level
 PLATFORM_SECURITY_PATCH := 2127-12-31
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
@@ -178,3 +181,4 @@ TW_EXCLUDE_APEX := true
 # LOGCAT
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
+
