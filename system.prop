@@ -14,3 +14,6 @@ persist.adb.nonblocking_ffs=0
 ro.adb.secure=0
 ro.debuggable=1
 persist.sys.usb.config=mtp,adb
+
+# KeyMaster
+keymaster_ver=4.0
