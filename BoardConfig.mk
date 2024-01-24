@@ -14,15 +14,11 @@ ALLOW_MISSING_DEPENDENCIES := true
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     system \
-    system_ext \
     vendor \
-    vendor_dlkm \
     product \
     boot \
     vbmeta_vendor \
-    vbmeta_system \
-    odm \
-    odm_dlkm
+    vbmeta_system 
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
@@ -115,7 +111,7 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 # AVB
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
-BOARD_AVB_VBMETA_SYSTEM := system system_dlkm system_ext product
+BOARD_AVB_VBMETA_SYSTEM := system product
 BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
 BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 1
