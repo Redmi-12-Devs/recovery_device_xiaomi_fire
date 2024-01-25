@@ -35,7 +35,7 @@ on property:ro.crypto.state=encrypted && property:ro.crypto.type=file
     install_keyring
 
     # mtk_plpath_utils
-service mtk_plpath_utils.link /system/bin/mtk_plpath_utils
+service mtk.plpath.utils.link /system/bin/mtk_plpath_utils
     class main
     user root
     group root system
