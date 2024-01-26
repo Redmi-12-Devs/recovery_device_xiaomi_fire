@@ -66,12 +66,3 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
 # MTK Plpath utils
 PRODUCT_PACKAGES += \
     mtk_plpath_utils.recovery
-
-# libion & libxml2
-TARGET_RECOVERY_DEVICE_MODULES += \
-    libion \
-    libxml2
-
-RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so
